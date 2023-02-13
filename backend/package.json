@@ -1,0 +1,40 @@
+{
+  "name": "graphql-tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "soham",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@typegoose/typegoose": "^10.1.1",
+    "@types/session-file-store": "^1.2.2",
+    "@types/store": "^2.0.2",
+    "apollo-server-express": "^3.11.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "graphql": "^16.6.0",
+    "localStorage": "^1.0.4",
+    "mongoose": "^6.9.1",
+    "node-localStorage": "^0.0.1",
+    "reflect-metadata": "^0.1.13",
+    "session-file-store": "^1.5.0",
+    "store": "^2.0.12",
+    "ts-node-dev": "^2.0.0",
+    "type-graphql": "^2.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.17",
+    "@types/express-session": "^1.17.6",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^18.13.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts"
+  }
+}
